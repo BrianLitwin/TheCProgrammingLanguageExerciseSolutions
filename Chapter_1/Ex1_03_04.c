@@ -2,7 +2,7 @@
 Print a celcius to fahrenheit conversion table from 0 to 300, incrementing by 20
 use a while loop
 
-output should look like: 
+output should look like:
 
 fahrenheit	   celcius
          0	    -17.8
@@ -78,6 +78,8 @@ int main() {
       printf("%10.0f\t%9.1f\n", celcius, fahr);
       celcius += 20;
     }
+
+    
 
     return 0;
 }
