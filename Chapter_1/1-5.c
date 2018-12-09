@@ -1,5 +1,5 @@
 /*
-print the fahrenheit to celcius conversion table using a while loop. Use only one variable (fahr).
+print the fahrenheit to celcius conversion table using a for-loop. Use only one variable (fahr).
 print fahr as an integer and celcius as floating-point with 6 spaces and 1 digit after decimal;
 (5/9)(f-32). Then do the same thing, except in reverse order.
 

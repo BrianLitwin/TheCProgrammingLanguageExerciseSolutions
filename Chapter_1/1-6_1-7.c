@@ -9,7 +9,5 @@ int main() {
   //1-7
   printf("%d\n", EOF);
 
-  
 
-  return 0;
 }
