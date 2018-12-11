@@ -5,7 +5,7 @@ int main() {
   FILE *fp;
   char buf[200];
 
-  fp = fopen("1-5-3-sampleFile.txt", "r");
+  fp = fopen("1-5-3-file.txt", "r");
   fread(buf,  200, 1, fp);
 
   int c, n = 0;
