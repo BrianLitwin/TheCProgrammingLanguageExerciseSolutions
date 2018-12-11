@@ -3,32 +3,26 @@
 
 int main() {
   FILE *fp;
-  fp = fopen("1-8File.txt", "r");
-  char buff[200];
-  fread(buff, 200, 1, fp);
+  fp = fopen("1-8-file.txt", "r");
+  char lines[100];
+  fread(lines, 100, 1, fp);
 
-  int length = strlen(buff);
-  int i;
-  int tabs = 0;
-  int blanks = 0;
-  int n = 0;
+  int count = strlen(lines);
+  int i = 0;
+  int spacecount = 0;
+  int newlines = 0;
 
-  for (i = 0; i < length; i++) {
-    int c = buff[i];
-    switch (c) {
-      case '\t':
-        tabs += 1;
-        break;
-      case '\b':
-        blanks += 1;
-        break;
-
-      case '\n':
-        n += 1;
-        break;
+  for (i=0;i<count;i++) {
+    int c = lines[i];
+    if (c == '\n') {
+      newlines += 1;
+    }
+    if (c == ' ') {
+      spacecount += 1;
     }
   }
 
-  printf("tabs: %d & blanks: %d & new lines: %d", tabs, blanks, n);
+  printf("spacecount = %d newlines count = %d \n", spacecount, newlines);
+
   return 0;
 }
