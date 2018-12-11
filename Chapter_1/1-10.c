@@ -5,8 +5,8 @@ Exercise 1-10. Write a program to copy its input to its output, replacing each
 tab by \ t, each backspace by \b, and each backslash by \ \. This makes tabs
 and backspaces visible in an unambiguous way
 
-Only testing a slash: format is the same: look for character and
-replace it w/ appropriate substitution
+test blank spaces and newlines from a file you've created 
+
 */
 
 int main()  {
