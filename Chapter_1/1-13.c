@@ -36,7 +36,6 @@ void print_vertical_histogram(int nums[], int length) {
     }
     printf("\n");
   }
-
 }
 
 
