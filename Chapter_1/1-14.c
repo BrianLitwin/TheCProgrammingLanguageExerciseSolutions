@@ -1,3 +1,16 @@
+/* 
+Write a program to print a histogram of the frequencies of different
+characters in its input.
+
+"one twow"-
+e :*
+n :*
+o :**
+t :*
+w :**
+
+*/
+
 #include <stdio.h>
 
 int main() {
