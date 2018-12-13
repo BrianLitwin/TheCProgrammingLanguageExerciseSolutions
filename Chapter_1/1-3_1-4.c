@@ -79,7 +79,5 @@ int main() {
       celcius += 20;
     }
 
-    
-
     return 0;
 }
