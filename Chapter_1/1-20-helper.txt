@@ -1,0 +1,7 @@
+   some text
+       a tab
+ some more    text
+
+     a   little    space
+                                      a bunch of tabs  
+   nospace
