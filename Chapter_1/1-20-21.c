@@ -1,13 +1,19 @@
+
+/*
+1-20
+1-21
+print the number of tabs and spaces in each set of spaces a text input file
+
+*/
+
 #include <stdio.h>
 #define MAX_L 10000
-
-
 
 int main() {
   FILE *fp;
   fp = fopen("1-20-helper.txt", "r");
   char text[MAX_L];
-  fread(text, MAX_L, 1, fp);
+  int n = fread(text, MAX_L, 1, fp);
   int i, c, cons_spaces;
   i = 0;
   cons_spaces = 0;
